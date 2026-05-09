@@ -1,0 +1,12 @@
+[package]
+name = "zuzu-designer"
+version = "0.1.0"
+edition = "2021"
+description = "GTK4 form designer for Zuzu GUI XML"
+license = "MIT"
+
+[dependencies]
+gio = "0.22.0"
+gtk = { package = "gtk4", version = "0.11.3" }
+roxmltree = "0.21"
+zuzu-rust = { path = "../zuzu-rust" }
